@@ -1,0 +1,25 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "This project is a basic Django web app with **Tailwind CSS** integrated using the `django-tailwind` package. It includes setup for `daisyUI`, live reloading with `npm run dev`, and is ready to be extended for real-world applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarishhma/django-setup-with-tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarishhma/django-setup-with-tailwind-css/issues"
+  },
+  "homepage": "https://github.com/Sarishhma/django-setup-with-tailwind-css#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}

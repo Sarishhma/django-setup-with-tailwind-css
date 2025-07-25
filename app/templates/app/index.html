@@ -13,7 +13,7 @@ for adding more bacckground colors
   .bg-blue-500 { background-color: var(--color-blue-500); }
   .bg-indigo-500 { background-color: var(--color-indigo-500); }
 } {% endcomment %}
-
+{% load static tailwind_tags %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -22,9 +22,10 @@ for adding more bacckground colors
     <meta name="viewport" content="width=h, initial-scale=1.0">
     <title>Home page</title>
     <link href="{% static 'css/dist/styles.css' %}" rel="stylesheet">
+     {% tailwind_css %}
 </head>
 <body class="flex justify-center items-center h-screen bg-gray-100">
-<h1 class="bg-blue-500 text-white p-4 rounded-lg text-2xl shadow-md ">hello form app</h1>
+<h1 class="bg-purple-500 text-white p-4 rounded-lg text-2xl shadow-md ">hello form app</h1>
     <h1 class="bg-success text-white p-4 rounded-lg text-2xl shadow-md">hello form app</h1>
 </body>
 </html>
