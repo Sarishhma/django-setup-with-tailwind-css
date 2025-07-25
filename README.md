@@ -30,12 +30,12 @@ python -m venv venv
 venv\Scripts\activate  # On Windows
 
 3. Install Python dependencies
-bash
+
 Copy code
 pip install -r requirements.txt
 
 4. Install npm dependencies
-bash
+
 Copy code
 cd myproject/theme
 npm install
@@ -43,12 +43,12 @@ cd ..
 
 🚀 Running the Project
 1. Start Tailwind CSS watcher
-bash
+
 Copy code
 python manage.py tailwind start
 
 2. In another terminal, run the Django server
-bash
+
 Copy code
 python manage.py runserver
 Now visit: http://127.0.0.1:8000
@@ -79,7 +79,6 @@ myproject/
 │   └── static_src/      # Source for Tailwind/daisyUI
 ├── manage.py
 └── requirements.txt
-📃 License
-MIT License — free to use for personal or commercial projects.
+
 
 Made by Sarishhma
