@@ -8,9 +8,13 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-yellow-500: oklch(79.5% 0.184 86.047);
+    --color-green-500: oklch(72.3% 0.219 149.579);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
+     --color-red-500: oklch(71% 0.212 29.233);
+    --color-blue-500: oklch(61% 0.212 263.026);
+    --color-indigo-500: oklch(55% 0.272 289.953);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -391,11 +395,26 @@
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
+   .bg-red-500 {
+     background-color: var(--color-red-500); 
+    }
+  .bg-blue-500 {
+     background-color: var(--color-blue-500);
+     }
+  .bg-indigo-500 {
+     background-color: var(--color-indigo-500);
+     }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
-  .bg-red-500 {
-    background-color: var(--color-red-500);
+  .bg-green-500 {
+    background-color: var(--color-green-500);
+  }
+  .bg-success {
+    background-color: var(--color-success);
+  }
+  .bg-yellow-500 {
+    background-color: var(--color-yellow-500);
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);

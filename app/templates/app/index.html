@@ -1,3 +1,19 @@
+{% comment %} @layer theme {
+for adding more bacckground colors
+  :root {
+    /* Add more Tailwind default colors */
+    --color-red-500: oklch(71% 0.212 29.233);
+    --color-blue-500: oklch(61% 0.212 263.026);
+    --color-indigo-500: oklch(55% 0.272 289.953);
+  }
+}
+
+@layer utilities {
+  .bg-red-500 { background-color: var(--color-red-500); }
+  .bg-blue-500 { background-color: var(--color-blue-500); }
+  .bg-indigo-500 { background-color: var(--color-indigo-500); }
+} {% endcomment %}
+
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +24,7 @@
     <link href="{% static 'css/dist/styles.css' %}" rel="stylesheet">
 </head>
 <body class="flex justify-center items-center h-screen bg-gray-100">
-<h1 class="bg-red-500 text-white p-4 rounded-lg text-2xl shadow-md">hello form app</h1>
-    
+<h1 class="bg-blue-500 text-white p-4 rounded-lg text-2xl shadow-md ">hello form app</h1>
+    <h1 class="bg-success text-white p-4 rounded-lg text-2xl shadow-md">hello form app</h1>
 </body>
 </html>
